@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+use TrainApp\App;
+
+require_once ('./bootstrap/bootstrap.php');
+
+$app = new App();
+$app->execute();
